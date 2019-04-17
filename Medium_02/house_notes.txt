@@ -1,0 +1,37 @@
+The first line of the rhyme is the last line in the array.
+
+This line will be the first line in the first paragraph.
+
+After that, it will be the last line of each paragraph.
+
+Each new paragraph will add a new line.
+
+The new line in each paragraph will be printed before the lines in the previous paragraph.
+
+Each line in the array has two parts.
+
+The first part of each line will be the start of the first line in a new paragraph, preceded by "This is "
+
+The second part of each line if the array will precede the next line in the paragraph.
+
+---
+
+Store the first line in its own variable "first_line".
+
+Store the beginning of each paragraph in a variable - beginning = "This is "
+
+Initialize "rhyme" array to hold the paragraphs
+
+Loop through "until" lines.empty?.
+
+Initialize "current" variable. Add "#{beginning} " to "current".
+
+Nest in the loop and iterate through the "lines" array with "each" with "line" as main line and "line_start" as next lines start.
+
+Add "#{line}\n#{line_start} " to "current"
+
+After "each" block is finished add "line_one" to "current".
+
+Then "rhyme.unshift(current)".
+
+Then "lines.shift"

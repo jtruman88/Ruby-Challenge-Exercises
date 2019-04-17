@@ -1,0 +1,16 @@
+normalize_plaintext
+
+- remove all spaces and punctutation and make downcase
+
+size
+
+- If the length of the text is a perfect square, the size will be that square number
+- Else return the square root of the number rounded up to the next integer.
+
+plaintext_segments
+
+- split the normailized plaintext into chunks according to the size
+
+ciphertext
+
+- 
